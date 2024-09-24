@@ -1,0 +1,34 @@
+{
+    "class_range_x": {
+      "vehicle": 30,
+      "bicycle": 30,
+      "pedestrian": 30,
+      "traffic_cone": 30,
+      "barrier": 30,
+      "czone_sign": 30,
+      "generic_object": 30,
+      "place_holder1" : 30,
+      "place_holder2" : 30,
+      "place_holder3" : 30
+    },
+    "class_range_y": {
+      "vehicle": 15,
+      "bicycle": 15,
+      "pedestrian": 15,
+      "traffic_cone": 15,
+      "barrier": 15,
+      "czone_sign": 15,
+      "generic_object": 15,
+      "place_holder1" : 15,
+      "place_holder2" : 15,
+      "place_holder3" : 15
+      },
+    "dist_fcn": "center_distance",
+    "dist_ths": [0.5, 1.0, 2.0, 4.0],
+    "dist_th_tp": 2.0,
+    "min_recall": 0.1,
+    "min_precision": 0.1,
+    "max_boxes_per_sample": 500,
+    "mean_ap_weight": 5
+}
+  
